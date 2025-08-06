@@ -131,3 +131,17 @@ a:hover {
     background-color: #ffffff;
     color: #111827;
 }
+
+/* FIX: Dropdown menu layering and visibility */
+.dropdown-menu {
+    z-index: 1050 !important; /* Make sure dropdowns appear on top */
+}
+
+/* FIX: Avoid clipping dropdown if parent has overflow */
+.dropdown, .dropdown-menu {
+    position: relative; /* ensure positioning context */
+}
+
+.container, .content-section, .food-section {
+    overflow: visible !important; /* allow dropdowns to overflow parent */
+}
