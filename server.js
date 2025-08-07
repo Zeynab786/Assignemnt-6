@@ -9,7 +9,6 @@
 * Name: Zeinba Mohamed Student ID: 123970246 Date: 05-08-2025
 *
 * Published URL: 
-*c
 ********************************************************************************/
 
 const LegoData = require("./modules/legoSets")
